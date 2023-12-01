@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         items.add(new rv_structure("2 PM", "31", "img_mostly_cloudy"));
         items.add(new rv_structure("3 PM", "32", "img_humidity"));
 
+
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
